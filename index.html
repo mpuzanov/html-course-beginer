@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="сайт-резюме Михаила">
+    <meta name="keywords" content="резюме, порфолио">
+    <title>Мой сайт - резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="info">
+            <img src="images/мое фото.jpg" class="avatar" alt="моя фотография">
+
+            <div class="info-text">
+                <h2>Пузанов Михаил</h2>
+                <p>Я программист.<br>
+                    В <em>основном</em> разрабатываю программное обеспечение по расчёту платы за <strong>ЖКУ</strong>.
+                </p>
+                <br>
+                <h4>Список моих социальных сетей:</h4>
+                <a href="#" target="_blank">В Контакте</a> |
+                <a href="#" target="_blank">Telegram</a> |
+                <a href="#" target="_blank">Youtube</a>
+            </div>
+        </div>
+
+        <section class="card bg-green">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Гулять с собакой</li>
+                <li>Смотреть фильмы</li>
+                <li>Читать книги</li>
+            </ol>
+        </section>
+
+        <section class="card bg-red">
+            <h2>Опыт работы</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ПО ИЖМАШ</td>
+                        <td>Инженер-программист</td>
+                        <td>1994-1996</td>
+                    </tr>
+                    <tr>
+                        <td>Городское жилищное управление</td>
+                        <td>Программист</td>
+                        <td>1996-2011</td>
+                    </tr>
+                    <tr>
+                        <td>ИП Пузанов Михаил Анатольевич</td>
+                        <td>Разработчик ПО</td>
+                        <td>2011-по настоящее время</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section class="card bg-yellow">
+            <form class="form">
+                <h2>Связаться со мной</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
+                <button class="btn">Отправить!</button>
+            </form>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
